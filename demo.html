@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>simpleSlidingPanels Minimum Setup</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery.easing.1.3.min.js"></script>
+		<script src="js/jquery.simpleSlidingPanels.js"></script>
+		<style type="text/css">
+		
+			/**
+			 * Some basic styles - none of which are necessary
+			 */
+		
+			body {
+				
+				padding: 20px;
+				margin: 0;
+				line-height: 1.5;
+				
+			}
+			
+			p,
+			h2 {
+				
+				font-family: 'Helvetica Neue', Arial, sans-serif;
+				color: #666666;
+				text-shadow: 0px 1px 1px #FFFFFF;
+				font-size: 14px;
+				font-weight: 300;
+				text-shadow: 0 1px 1px white;
+				
+				
+			}
+			
+			h2 { font-size: 16px; }
+			
+			a { 
+			
+				color: #08A5EF;
+				display: block;
+				text-decoration: none;
+				
+			}
+			
+			a:hover { color: #111111; }
+			
+			div.ssp-parent * { margin: 0; /** JQuery has problems sliding content with margin */ }
+			
+			div.ssp-parent p { padding: 0.6em 0 0.6em 0; }
+			
+			a.ssp-link > span {
+				
+				width: 25px;
+				float: left;
+				color: #111111;
+				font-weight: bold;
+				
+			}
+			
+			a.ssp-link {
+				
+				border-bottom: 1px solid #999999;
+				padding: 5px 0 5px 0;
+				
+			}
+			
+			a.ssp-link:hover { background-color: #F7F7F7; }
+			
+			a.ssp-active,
+			a.ssp-active:hover { background-color: #DDDDDD; }
+		
+		</style>
+		<script>
+		
+			$(function() {
+
+				$('div.ssp-parent').simpleSlidingPanels({
+				
+					automaticClose: 	true,
+					speed: 				400,
+					easing: 			'easeInOutExpo'
+				
+				});
+				
+			});
+		
+		</script>
+	</head>
+	<body>
+		<div class="ssp-parent">
+			<div>
+				<h2><a class="ssp-link" href="#">FAQ 1</a></h2>
+				<div class="ssp-content">
+					<p>Eu purto doming intellegebat usu. Veniam verear consulatu cu vel. Ne dicat tritani nostrum qui, in meis malorum vix. His
+					eu volumus explicari. Ei esse graeco sed, ridens everti ea duo. Ut dicant reformidans est.</p>
+					<p>Adolescens concludaturque usu ei, ius an semper viderer, mel in placerat signiferumque. Vis ne impedit admodum,
+					altera voluptaria pri in. Cu aeque consul mei. Ne dicit errem postulant vix, eu commune pericula delicatissimi vel.</p>
+					<p>Singulis patrioque instructior ne vis, eirmod bonorum rationibus his te. Cum ut graeco eirmod animal, et vis aeterno
+					mentitum. His ut malis viris eloquentiam. Bonorum gubergren expetendis eam ei. Nam id oratio cotidieque, eam aeque graeco
+					id, his sumo wisi dissentiunt in. Pro ei rebum ridens reformidans, libris scaevola elaboraret quo ex.</p>
+				</div>
+			</div>
+		</div>
+		<div class="ssp-parent">
+			<div>
+				<h2><a class="ssp-link" href="#">FAQ 2</a></h2>
+				<div class="ssp-content">
+					<p>Eu purto doming intellegebat usu. Veniam verear consulatu cu vel. Ne dicat tritani nostrum qui, in meis malorum vix. His
+					eu volumus explicari. Ei esse graeco sed, ridens everti ea duo. Ut dicant reformidans est.</p>
+					<p>Adolescens concludaturque usu ei, ius an semper viderer, mel in placerat signiferumque. Vis ne impedit admodum,
+					altera voluptaria pri in. Cu aeque consul mei. Ne dicit errem postulant vix, eu commune pericula delicatissimi vel.</p>
+					<p>Singulis patrioque instructior ne vis, eirmod bonorum rationibus his te. Cum ut graeco eirmod animal, et vis aeterno
+					mentitum. His ut malis viris eloquentiam. Bonorum gubergren expetendis eam ei. Nam id oratio cotidieque, eam aeque graeco
+					id, his sumo wisi dissentiunt in. Pro ei rebum ridens reformidans, libris scaevola elaboraret quo ex.</p>
+				</div>
+			</div>
+		</div>
+		<div class="ssp-parent">
+			<div>
+				<h2><a class="ssp-link" href="#">FAQ 3</a></h2>
+				<div class="ssp-content">
+					<p>Eu purto doming intellegebat usu. Veniam verear consulatu cu vel. Ne dicat tritani nostrum qui, in meis malorum vix. His
+					eu volumus explicari. Ei esse graeco sed, ridens everti ea duo. Ut dicant reformidans est.</p>
+					<p>Adolescens concludaturque usu ei, ius an semper viderer, mel in placerat signiferumque. Vis ne impedit admodum,
+					altera voluptaria pri in. Cu aeque consul mei. Ne dicit errem postulant vix, eu commune pericula delicatissimi vel.</p>
+					<p>Singulis patrioque instructior ne vis, eirmod bonorum rationibus his te. Cum ut graeco eirmod animal, et vis aeterno
+					mentitum. His ut malis viris eloquentiam. Bonorum gubergren expetendis eam ei. Nam id oratio cotidieque, eam aeque graeco
+					id, his sumo wisi dissentiunt in. Pro ei rebum ridens reformidans, libris scaevola elaboraret quo ex.</p>
+				</div>
+			</div>
+		</div>
+		<div class="ssp-parent">
+			<div>
+				<h2><a class="ssp-link" href="#">FAQ 4</a></h2>
+				<div class="ssp-content">
+					<p>Eu purto doming intellegebat usu. Veniam verear consulatu cu vel. Ne dicat tritani nostrum qui, in meis malorum vix. His
+					eu volumus explicari. Ei esse graeco sed, ridens everti ea duo. Ut dicant reformidans est.</p>
+					<p>Adolescens concludaturque usu ei, ius an semper viderer, mel in placerat signiferumque. Vis ne impedit admodum,
+					altera voluptaria pri in. Cu aeque consul mei. Ne dicit errem postulant vix, eu commune pericula delicatissimi vel.</p>
+					<p>Singulis patrioque instructior ne vis, eirmod bonorum rationibus his te. Cum ut graeco eirmod animal, et vis aeterno
+					mentitum. His ut malis viris eloquentiam. Bonorum gubergren expetendis eam ei. Nam id oratio cotidieque, eam aeque graeco
+					id, his sumo wisi dissentiunt in. Pro ei rebum ridens reformidans, libris scaevola elaboraret quo ex.</p>
+				</div>
+			</div>
+		</div>
+		<p>Test</p>
+		<div class="ssp-parent">
+			<div>
+				<h2><a class="ssp-link" href="#">FAQ 5</a></h2>
+				<p>Arbitrary HTML</p>
+				<div class="ssp-content">
+					<p>Eu purto doming intellegebat usu. Veniam verear consulatu cu vel. Ne dicat tritani nostrum qui, in meis malorum vix. His
+					eu volumus explicari. Ei esse graeco sed, ridens everti ea duo. Ut dicant reformidans est.</p>
+					<p>Adolescens concludaturque usu ei, ius an semper viderer, mel in placerat signiferumque. Vis ne impedit admodum,
+					altera voluptaria pri in. Cu aeque consul mei. Ne dicit errem postulant vix, eu commune pericula delicatissimi vel.</p>
+					<p>Singulis patrioque instructior ne vis, eirmod bonorum rationibus his te. Cum ut graeco eirmod animal, et vis aeterno
+					mentitum. His ut malis viris eloquentiam. Bonorum gubergren expetendis eam ei. Nam id oratio cotidieque, eam aeque graeco
+					id, his sumo wisi dissentiunt in. Pro ei rebum ridens reformidans, libris scaevola elaboraret quo ex.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
