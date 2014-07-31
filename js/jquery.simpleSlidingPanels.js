@@ -7,7 +7,7 @@
  * @author 			Tim Bennett
  * @version 		1.0
  *
- * Download the latest version at www.texelate.co.uk/lab/simple-sliding-panels/
+ * Download the latest version at www.texelate.co.uk/lab/project/simple-sliding-panels/
  *
  * Open source under the MIT license:
  *
